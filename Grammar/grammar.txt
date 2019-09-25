@@ -1,0 +1,16 @@
+<studentID>::=<studentName> <studentNumber> <gender> <studentPhoto> <schoolName>
+<studentName>::=<firstName> <lastName>
+<firstName>::=John|Jane|Roya|Mary|Sam|Idiot|Genius|Leo
+<lastName>::=McCarthy|Green|Sturmer|Zheng|Campell
+<studentNumber>::=<regisYear><program><numberInProgram>
+<regisYear>::="11"|"12"|"13"|"14"|"15"
+<program>::=<Computer>|<Physics>|<Biology>|<Medical>|<English>
+<Computer>::="131"
+<Biology>::="112"
+<Medical>::="141"
+<English>::="201"
+<Physics>::="386"
+<numberInProgram>::="74"|"25"|"30"|"29"|"98"
+<gender>::=M|F
+<studentPhoto>::=1.jpg|2.jpg|3.jpg|4.jpg
+<schoolName>::="University of Washington"|"Harvard University"|"MIT"
